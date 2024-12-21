@@ -48,7 +48,7 @@ validation_labels = util.loadLabelsFile("facedata/facedatavalidationlabels", n_v
 # classifier = naiveBayes.NaiveBayesClassifier(num_class, 2)
 #
 # # Define Laplace smoothing parameters to tune
-# laplace_values = [0.001]
+# laplace_values = [0.001, 0.01, 0.1, 0.5, 1, 2, 5, 10]
 #
 # # Tune Laplace smoothing using the validation set
 # start = time.time()
